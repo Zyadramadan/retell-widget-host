@@ -4,7 +4,7 @@
       ''<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z" fill="#99A0AE"/></svg>'',
     n =
       '\n          <div class="retell-callback-header">\n            <div class="retell-callback-title">\n              <span class="retell-callback-title-icon">??</span>\n              <span class="retell-callback-title-text">Get a call from us</span>\n            </div>\n            <div class="retell-callback-subtitle">Leave your details below and we will call you!</div>\n            <div class="retell-callback-note">(The call is free)</div>\n          </div>\n          <div class="retell-callback-form-content">\n            <div class="retell-callback-name-group">\n              <div class="retell-callback-input-group">\n                <input class="retell-input" id="retell-firstname-input" type="text" placeholder="First Name" required />\n              </div>\n              <div class="retell-callback-input-group">\n                <input class="retell-input" id="retell-lastname-input" type="text" placeholder="Last Name" required />\n              </div>\n            </div>\n            <div class="retell-callback-input-group">\n              <div class="retell-callback-phone-group">\n                <div class="retell-callback-country-dropdown" id="retell-country-dropdown" tabindex="0" role="button" aria-haspopup="listbox" aria-expanded="false">\n                  <span class="retell-callback-country-flag" id="retell-country-flag">????</span>\n                  <span class="retell-callback-country-code" id="retell-country-code">+1</span>\n                  <span class="retell-callback-dropdown-arrow">'.concat(
-        '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.0001 10.879L13.7126 7.1665L14.7731 8.227L10.0001 13L5.22705 8.227L6.28755 7.1665L10.0001 10.879Z" fill="#525866"/></svg>',
+        '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.796 9.99924L7.0835 6.28674L8.144 5.22624L12.917 9.99924L8.144 14.7722L7.0835 13.7117L10.796 9.99924Z" fill="#99A0AE"/></svg>',
         '</span>\n                </div>\n                <input class="retell-input" id="retell-phone-input" type="tel" placeholder="(555) 000-0000" required />\n                <div class="retell-country-dropdown-list" id="retell-country-dropdown-list" style="display: none;">\n                  <div class="retell-country-search">\n                    <input type="text" id="retell-country-search" placeholder="Search country name" />\n                  </div>\n                  <div class="retell-country-options" id="retell-country-options">\n                    \x3c!-- Countries will be populated here --\x3e\n                  </div>\n                </div>\n              </div>\n            </div>\n            <div class="retell-callback-checkbox-group">\n              <input class="retell-callback-checkbox" id="retell-privacy-checkbox" type="checkbox" required />\n              <label class="retell-callback-checkbox-label" for="retell-privacy-checkbox">\n                I agree to the <a href="#" id="retell-privacy-policy-link" class="retell-privacy-policy-link">privacy policy</a>\n              </label>\n            </div>\n          </div>\n          <div class="retell-callback-actions">\n            <button class="retell-send-btn" id="retell-callback-submit" type="button">Submit Request</button>\n            <div class="retell-maybe-later" id="retell-maybe-later">Maybe later</div>\n          </div>'
       ),
     t = [
@@ -90,10 +90,10 @@
       { name: 'Costa Rica', code: 'CR', emoji: '????', dial_code: '+506' },
       { name: 'Croatia', code: 'HR', emoji: '????', dial_code: '+385' },
       { name: 'Cuba', code: 'CU', emoji: '????', dial_code: '+53' },
-      { name: 'Curaçao', code: 'CW', emoji: '????', dial_code: '+599' },
+      { name: 'CuraÃ§ao', code: 'CW', emoji: '????', dial_code: '+599' },
       { name: 'Cyprus', code: 'CY', emoji: '????', dial_code: '+357' },
       { name: 'Czechia', code: 'CZ', emoji: '????', dial_code: '+420' },
-      { name: 'Côte d’Ivoire', code: 'CI', emoji: '????', dial_code: '+225' },
+      { name: 'CÃ´te dâ€™Ivoire', code: 'CI', emoji: '????', dial_code: '+225' },
       { name: 'Denmark', code: 'DK', emoji: '????', dial_code: '+45' },
       { name: 'Djibouti', code: 'DJ', emoji: '????', dial_code: '+253' },
       { name: 'Dominica', code: 'DM', emoji: '????', dial_code: '+1767' },
@@ -243,11 +243,11 @@
       { name: 'Portugal', code: 'PT', emoji: '????', dial_code: '+351' },
       { name: 'Puerto Rico', code: 'PR', emoji: '????', dial_code: '+1 787' },
       { name: 'Qatar', code: 'QA', emoji: '????', dial_code: '+974' },
-      { name: 'Réunion', code: 'RE', emoji: '????', dial_code: '+262' },
+      { name: 'RÃ©union', code: 'RE', emoji: '????', dial_code: '+262' },
       { name: 'Romania', code: 'RO', emoji: '????', dial_code: '+40' },
       { name: 'Russia', code: 'RU', emoji: '????', dial_code: '+7' },
       { name: 'Rwanda', code: 'RW', emoji: '????', dial_code: '+250' },
-      { name: 'Saint Barthélemy', code: 'BL', emoji: '????', dial_code: '+590' },
+      { name: 'Saint BarthÃ©lemy', code: 'BL', emoji: '????', dial_code: '+590' },
       { name: 'Saint Helena', code: 'SH', emoji: '????', dial_code: '+290' },
       {
         name: 'Saint Kitts & Nevis',
@@ -2435,4 +2435,5 @@
       ? document.addEventListener('DOMContentLoaded', t)
       : t();
   })();
+
 })();
